@@ -2,6 +2,7 @@
 #PBS -q copyq
 #PBS -l ncpus=1
 #PBS -l wd
+#PBS -l storage=gdata/ik11+scratch/x77
 #PBS -l walltime=2:00:00,mem=2GB
 #PBS -P v45
 #PBS -N restarts_to_gdata
