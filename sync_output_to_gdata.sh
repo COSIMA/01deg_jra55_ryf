@@ -14,6 +14,6 @@ GDATADIR=/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091
 
 mkdir -p ${GDATADIR}
 cd archive
-rsync --exclude "*.nc.*" --exclude "ocean_daily_3d_*" --exclude "*ocean_*_3hourly*" --exclude "*iceh_03h*" -vrltoD --safe-links output* ${GDATADIR}
+rsync --exclude "*.nc.*" --exclude "*ocean_*_3hourly*" --exclude "*iceh_03h*" -vrltoD --safe-links output* ${GDATADIR}
 rsync -vrltoD --safe-links error_logs ${GDATADIR}
 rsync -vrltoD --safe-links pbs_logs ${GDATADIR}
