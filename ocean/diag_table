@@ -27,8 +27,8 @@ ACCESS-OM2-01
 "ocean_daily_3d_wt",  1,  "days", 1, "days", "time",
 
 ## Adele/Ruth's DSW diagnostics
-#"ocean_daily_3d_uhrho_et",  1,  "days", 1, "days", "time",
-#"ocean_daily_3d_vhrho_nt",  1,  "days", 1, "days", "time",
+"ocean_daily_3d_uhrho_et",  1,  "days", 1, "days", "time",
+"ocean_daily_3d_vhrho_nt",  1,  "days", 1, "days", "time",
 
 # Save ocean grid data once and for all
 "ocean_model","geolon_t","geolon_t", "ocean_grid","all",.false.,"none",2
@@ -84,8 +84,8 @@ ACCESS-OM2-01
 "ocean_model","wt","wt","ocean_daily_3d_wt","all",.true.,"none",2
 
 # for Adele:
-#"ocean_model","uhrho_et","uhrho_et",    "ocean_daily_3d_uhrho_et","all",.true.,"none",2
-#"ocean_model","vhrho_nt","vhrho_nt",    "ocean_daily_3d_vhrho_nt","all",.true.,"none",2
+"ocean_model","uhrho_et","uhrho_et",    "ocean_daily_3d_uhrho_et","all",.true.,"none",2
+"ocean_model","vhrho_nt","vhrho_nt",    "ocean_daily_3d_vhrho_nt","all",.true.,"none",2
 
 # 2d fields - monthly output
 "ocean_model","sea_level","sea_level",        "ocean_month","all",.true.,"none",2
@@ -148,9 +148,9 @@ ACCESS-OM2-01
 #"ocean_model","subduction_horz","subduction_horz",            "ocean_subduction","all",.true.,"none",2
 "ocean_model","subduction_vert","subduction_vert",            "ocean_subduction","all",.true.,"none",2
 #"ocean_model","subduction_nrho","subduction_nrho",            "ocean_subduction","all",.true.,"none",2
-#"ocean_model","subduction_dhdt_nrho","subduction_dhdt_nrho",            "ocean_subduction","all",.true.,"none",2
+"ocean_model","subduction_dhdt_nrho","subduction_dhdt_nrho",            "ocean_subduction","all",.true.,"none",2
 #"ocean_model","subduction_horz_nrho","subduction_horz_nrho",            "ocean_subduction","all",.true.,"none",2
-#"ocean_model","subduction_vert_nrho","subduction_vert_nrho",            "ocean_subduction","all",.true.,"none",2
+x"ocean_model","subduction_vert_nrho","subduction_vert_nrho",            "ocean_subduction","all",.true.,"none",2
 
 # 2d fields - daily output
 "ocean_model", "eta_t", "eta_t", "ocean_daily","all",.true.,"none",2
