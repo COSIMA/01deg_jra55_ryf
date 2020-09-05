@@ -28,6 +28,17 @@ nlat =  90.0
 wlon =   0.0
 elon = 360.0
 /
+"namelists","ocean_mod","ocean_passive/patch"
+names = ross
+restore = t
+init_condition = patch
+/
+"namelists","ocean_mod","ocean_passive/ross"
+slat = -90.0
+nlat = -70.0
+wlon = 190.0
+elon = 220.0
+/
 # added by FRE: sphum must be present in atmos
 # specific humidity for moist runs
  "TRACER", "atmos_mod", "sphum"
