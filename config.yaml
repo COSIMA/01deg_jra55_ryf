@@ -27,6 +27,7 @@ submodels:
       input:
           - /g/data/ik11/inputs/access-om2/input_08022019/mom_01deg
           - /g/data/x77/amh157/passive/ocean_passive.res.nc
+          - /g/data/x77/amh157/passive/ocean_passive_masks.res.nc
       ncpus: 4358
 
     - name: ice
