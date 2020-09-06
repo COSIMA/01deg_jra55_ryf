@@ -30,6 +30,9 @@ ACCESS-OM2-01
 #"ocean_daily_3d_uhrho_et",  1,  "days", 1, "days", "time",
 #"ocean_daily_3d_vhrho_nt",  1,  "days", 1, "days", "time",
 
+## Andy's new tests with passive tracers:
+"ocean_passive_tracers", 1,  "months", 1, "days", "time",
+
 # Save ocean grid data once and for all
 "ocean_model","geolon_t","geolon_t", "ocean_grid","all",.false.,"none",2
 "ocean_model","geolat_t","geolat_t", "ocean_grid","all",.false.,"none",2
@@ -53,7 +56,6 @@ ACCESS-OM2-01
 "ocean_model","pot_temp","pot_temp",    "ocean","all",.true.,"none",2
 "ocean_model","salt","salt",            "ocean","all",.true.,"none",2
 "ocean_model","age_global","age_global","ocean","all",.true.,"none",2
-"ocean_model","age_ross","age_ross","ocean","all",.true.,"none",2
 "ocean_model","u","u",                  "ocean","all",.true.,"none",2
 "ocean_model","v","v",                  "ocean","all",.true.,"none",2
 "ocean_model","wt","wt",                "ocean","all",.true.,"none",2
@@ -87,6 +89,9 @@ ACCESS-OM2-01
 # for Adele:
 #"ocean_model","uhrho_et","uhrho_et",    "ocean_daily_3d_uhrho_et","all",.true.,"none",2
 #"ocean_model","vhrho_nt","vhrho_nt",    "ocean_daily_3d_vhrho_nt","all",.true.,"none",2
+
+# Andy's passive tracers
+"ocean_model","passive_ross","passive_ross","ocean_passive_tracers","all",.true.,"none",2
 
 # 2d fields - monthly output
 "ocean_model","sea_level","sea_level",        "ocean_month","all",.true.,"none",2
