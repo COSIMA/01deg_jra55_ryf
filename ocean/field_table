@@ -13,7 +13,7 @@ ppm_hlimiter = 3
 ppm_vlimiter = 3
 /
 "tracer_packages","ocean_mod","ocean_age_tracer"
-names = global
+names = global, ross
 const_init_tracer = .true.
 horizontal-advection-scheme = mdppm
 vertical-advection-scheme = mdppm
@@ -28,17 +28,7 @@ nlat =  90.0
 wlon =   0.0
 elon = 360.0
 /
-"tracer_packages","ocean_mod","ocean_passive"
-names = ross
-const_init_tracer = .true.
-horizontal-advection-scheme = mdppm
-vertical-advection-scheme = mdppm
-ppm_hlimiter = 3
-ppm_vlimiter = 3
-/
-"namelists","ocean_mod","ocean_passive/ross"
-restore = t
-init_condition = patch
+"namelists","ocean_mod","ocean_age_tracer/ross"
 slat = -90.0
 nlat = -70.0
 wlon = 190.0
