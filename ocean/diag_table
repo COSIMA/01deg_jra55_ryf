@@ -92,6 +92,8 @@ ACCESS-OM2-01
 
 # Andy's passive tracers
 "ocean_model","passive_ross","passive_ross","ocean_passive_tracers","all",.true.,"none",2
+"ocean_model","passive_ross_tendency","passive_ross_tendency","ocean_passive_tracers","all",.true.,"none",2
+"ocean_model","passive_ross_advection","passive_ross_advection","ocean_passive_tracers","all",.true.,"none",2
 
 # 2d fields - monthly output
 "ocean_model","sea_level","sea_level",        "ocean_month","all",.true.,"none",2
