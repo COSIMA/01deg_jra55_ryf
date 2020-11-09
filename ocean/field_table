@@ -39,16 +39,16 @@ wlon =   0.0
 elon = 360.0
 /
 "namelists","ocean_mod","ocean_passive/ross"
-restore = .false.
+restore = .true.
 /
 "namelists","ocean_mod","ocean_passive/weddell"
-restore = .false.
+restore = .true.
 /
 "namelists","ocean_mod","ocean_passive/prydz"
-restore = .false.
+restore = .true.
 /
 "namelists","ocean_mod","ocean_passive/adelie"
-restore = .false.
+restore = .true.
 /
 # added by FRE: sphum must be present in atmos
 # specific humidity for moist runs
