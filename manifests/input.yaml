@@ -116,31 +116,6 @@ work/ocean/INPUT/ocean_passive_masks.res.nc:
   hashes:
     binhash: 6ca41b220e4b8a815c193b545674eb30
     md5: 86077502130328a5862335614083bd6f
-work/ocean/INPUT/ocean_passive_masks_everywhere_attempt1.res.nc:
-  fullpath: /g/data/x77/amh157/passive/passive4/ocean_passive_masks_everywhere_attempt1.res.nc
-  hashes:
-    binhash: d105a8d7e0fd51ffceabed1892802dbc
-    md5: 92fdd3aaf7e83f2ff126d2c62b8238fd
-work/ocean/INPUT/ocean_passive_masks_local_attempt2.nc:
-  fullpath: /g/data/x77/amh157/passive/passive4/ocean_passive_masks_local_attempt2.nc
-  hashes:
-    binhash: da02f224cf612dea26715baaace77e3f
-    md5: 86077502130328a5862335614083bd6f
-work/ocean/INPUT/ocean_passive_masks_nonzero_attempt3.nc:
-  fullpath: /g/data/x77/amh157/passive/passive4/ocean_passive_masks_nonzero_attempt3.nc
-  hashes:
-    binhash: 299b144612e99deaa38d0843620de477
-    md5: f2dd05302581c64ed1bde706cb57c235
-work/ocean/INPUT/ocean_passive_nonzero_attempt2.nc:
-  fullpath: /g/data/x77/amh157/passive/passive4/ocean_passive_nonzero_attempt2.nc
-  hashes:
-    binhash: 3acc9bf29a1e8fd9eb2c3689934298d5
-    md5: b63a700f739b2415f18104142dacc752
-work/ocean/INPUT/ocean_passive_zero_attempt1.nc:
-  fullpath: /g/data/x77/amh157/passive/passive4/ocean_passive_zero_attempt1.nc
-  hashes:
-    binhash: 729987b9d0cd605ef0a87f45219257c6
-    md5: bc75f3457667642ce8a3f77a5e357819
 work/ocean/INPUT/ocean_temp_salt.res.nc:
   fullpath: /g/data/ik11/inputs/access-om2/input_08022019/mom_01deg/ocean_temp_salt.res.nc
   hashes:
@@ -156,15 +131,45 @@ work/ocean/INPUT/ocean_vgrid_dz_1_to_200m_6000m_75lev.nc:
   hashes:
     binhash: e5c57812ff7bbee1b0cebc3c08915718
     md5: 32f4d9de4905a7f4aeee1cb3036a1ea9
+work/ocean/INPUT/passive_adelie_sponge.nc:
+  fullpath: /g/data/x77/amh157/passive/passive4/passive_adelie_sponge.nc
+  hashes:
+    binhash: 141852b6765f904b4d89898b40ca21d3
+    md5: 390789578c6aca301fff173beade5213
+work/ocean/INPUT/passive_adelie_sponge_coeff.nc:
+  fullpath: /g/data/x77/amh157/passive/passive4/passive_adelie_sponge_coeff.nc
+  hashes:
+    binhash: 019a97300024f1fe3151b78ef7cee58b
+    md5: 2cecb5e12799d3955449149fdffb7cc1
+work/ocean/INPUT/passive_prydz_sponge.nc:
+  fullpath: /g/data/x77/amh157/passive/passive4/passive_prydz_sponge.nc
+  hashes:
+    binhash: 0994b356c43de4b9f7c6422b142505a5
+    md5: 108cc47540ecfd593eca6dfdf296737c
+work/ocean/INPUT/passive_prydz_sponge_coeff.nc:
+  fullpath: /g/data/x77/amh157/passive/passive4/passive_prydz_sponge_coeff.nc
+  hashes:
+    binhash: 9390cd7f30238c679582971e0e6c8f5f
+    md5: 2cecb5e12799d3955449149fdffb7cc1
 work/ocean/INPUT/passive_ross_sponge.nc:
   fullpath: /g/data/x77/amh157/passive/passive4/passive_ross_sponge.nc
   hashes:
-    binhash: 6305ff5a461f18f467a9c67aedad7a0a
+    binhash: b3795d0028e2eeff181badc5a005f4bf
     md5: 05cb65ca001a132aa057ca46f954354e
 work/ocean/INPUT/passive_ross_sponge_coeff.nc:
   fullpath: /g/data/x77/amh157/passive/passive4/passive_ross_sponge_coeff.nc
   hashes:
-    binhash: c5e6ec711a3b3335e854e7ac3311fbea
+    binhash: e97408a4ef8df5d05dbd48c6240c5332
+    md5: 2cecb5e12799d3955449149fdffb7cc1
+work/ocean/INPUT/passive_weddell_sponge.nc:
+  fullpath: /g/data/x77/amh157/passive/passive4/passive_weddell_sponge.nc
+  hashes:
+    binhash: ffd907753c2061188692390a75b51b89
+    md5: 3977816614593e7a342c9527f9f8f507
+work/ocean/INPUT/passive_weddell_sponge_coeff.nc:
+  fullpath: /g/data/x77/amh157/passive/passive4/passive_weddell_sponge_coeff.nc
+  hashes:
+    binhash: 1462dee4ef2dd92ad82b7d5a6b1ab507
     md5: 2cecb5e12799d3955449149fdffb7cc1
 work/ocean/INPUT/river_destination_field:
   fullpath: /g/data/ik11/inputs/access-om2/input_08022019/mom_01deg/river_destination_field
