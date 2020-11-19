@@ -175,6 +175,8 @@ ACCESS-OM2-01
 "ocean_model","frazil_3d_int_z","frazil_3d_int_z", "ocean_daily","all",.true.,"none",2
 "ocean_model", "pme_river", "pme_river", "ocean_daily","all",.true.,"none",2
 "ocean_model", "surface_salt", "surface_salt", "ocean_daily","all",.true.,"none",2
+"ocean_model","tau_x","tau_x", "ocean_daily","all",.true.,"none",2
+"ocean_model","tau_y","tau_y", "ocean_daily","all",.true.,"none",2
 
 
 # timeseries - 1D scalar variables
