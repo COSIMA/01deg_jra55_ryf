@@ -177,7 +177,8 @@ ACCESS-OM2-01
 "ocean_model", "surface_salt", "surface_salt", "ocean_daily","all",.true.,"none",2
 "ocean_model","tau_x","tau_x", "ocean_daily","all",.true.,"none",2
 "ocean_model","tau_y","tau_y", "ocean_daily","all",.true.,"none",2
-
+"ocean_model","usurf","usurf", "ocean_daily","all",.true.,"none",2
+"ocean_model","vsurf","vsurf", "ocean_daily","all",.true.,"none",2
 
 # timeseries - 1D scalar variables
 "ocean_model","ke_tot","ke_tot", "ocean_scalar","all",.true.,"none",1
