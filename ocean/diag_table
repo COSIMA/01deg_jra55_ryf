@@ -192,15 +192,15 @@ ACCESS-OM2-01
 "ocean_model","vsurf","vsurf", "ocean_daily","all",.true.,"none",2
 
 ## For Adele/Wilma/John
-"ocean_model","u","u","Prydz_u","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","v","v","Prydz_v","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","temp","temp","Prydz_temp","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","salt","salt","Prydz_salt","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","age_global","age_global","Prydz_age_global","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","temp_yflux_adv","temp_yflux_adv","Prydz_temp_yflux_adv","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","temp_xflux_adv","temp_xflux_adv","Prydz_temp_xflux_adv","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","uhrho_et","uhrho_et","Prydz_uhrho_et","all",.true.,"-69,-64,40,75,-1,-1",2
-"ocean_model","vhrho_nt","vhrho_nt","Prydz_vhrho_nt","all",.true.,"-69,-64,40,75,-1,-1",2
+"ocean_model","u","u","Prydz_u","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","v","v","Prydz_v","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","temp","temp","Prydz_temp","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","salt","salt","Prydz_salt","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","age_global","age_global","Prydz_age_global","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","temp_yflux_adv","temp_yflux_adv","Prydz_temp_yflux_adv","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","temp_xflux_adv","temp_xflux_adv","Prydz_temp_xflux_adv","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","uhrho_et","uhrho_et","Prydz_uhrho_et","all",.true.,"40,75,-69,-64,-1,-1",2
+"ocean_model","vhrho_nt","vhrho_nt","Prydz_vhrho_nt","all",.true.,"40,75,-69,-64,-1,-1",2
 
 # timeseries - 1D scalar variables
 "ocean_model","ke_tot","ke_tot", "ocean_scalar","all",.true.,"none",1
