@@ -14,7 +14,7 @@ from __future__ import print_function
 import os, sys
 from glob import glob
 
-restarts = glob('archive/restart???')
+restarts = glob('archive/restart????')
 restarts.sort()
 restarts = restarts[:-6]  # don't touch the most recent 6 restarts
 
